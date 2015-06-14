@@ -1,6 +1,6 @@
-# Getting and cleaning data - Course project
+# GETTING AND CLEANING DATA - Course project
 Thomas Mawora
-## PURPOSE  
+## Purpose  
 Demonstrate ability to collect, work with, and clean a data set.
-## GOAL
+## Goal
 Prepare tidy data that can be used for later analysis
