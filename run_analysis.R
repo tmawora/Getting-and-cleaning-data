@@ -34,11 +34,13 @@ test_subjects<-read.table(test.data.names[10])
 y_subjects<-read.table(test.data.names[12])
 
 ## The same flow of sequence of commands shall be applied to all files
+## For this reason, several temporary files shall be used repeatedly.
 ## 1) First, the file shall be read
 ##      Many datasets have variables for the same individual read for multiple rows and columns
 ## 2) The test/train score variables shall be reshaped into a single column
 ## 3) The mean and standard deviation of the data shall be computed for the different participants
 ## 4) The two statistics shall be stored into two different variables and merged to the parent file.
+## 
 
 ###########################################################################
 ##  02. body_acc_x_test (No. 1 in test.data.names)
