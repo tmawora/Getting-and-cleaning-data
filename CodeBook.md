@@ -1,9 +1,44 @@
-### This file gives a decription of the variables and steps done to clean and organise the data
+The output file contains the following variables in order. 
 
 ### Variables
-* subject : The subject who performed the activity for each window sample. Its range is from 1 to 30
-* train_acc_x : The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'
-* train_acc_y : The acceleration signal from the smartphone accelerometer Y axis in standard gravity units 'g'
-* train_acc_Z : The acceleration signal from the smartphone accelerometer Z axis in standard gravity units 'g'
-* train_body_acc_x : The body acceleration signal obtained by subtracting the gravity from the total acceleration
-* train_body_gyro_x : The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second
+* id                   :  The unique ID for the respondent
+* mean.x.acc.body.test :  The mean of body_acc_x_test for the tested participants
+* sd.x.acc.body.test   :  The standard deviation of body_acc_x_test for the tested participants
+* mean.y.acc.body.test :  The mean of body_acc_y_test for the tested participants
+* sd.y.acc.body.test   :  The standard deviation of body_acc_y_test for the tested participants
+* mean.z.acc.body.test :  The mean of body_acc_z_test for the tested participants
+* sd.z.acc.body.test   :  The standard deviation of body_acc_z_test for the tested participants
+* mean.x.gyr.body.test :  The mean of body_gyro_x_test for the tested participants
+* sd.x.gyr.body.test   :  The standard deviation of body_gyro_x_test for the tested participants
+* mean.y.gyr.body.test :  The mean of body_gyro_y_test for the tested participants
+* sd.y.gyr.body.test   :  The standard deviation of body_gyro_y_test for the tested participants
+* mean.z.gyr.body.test :  The mean of body_gyro_z_test for the tested participants
+* sd.z.gyr.body.test   :  The standard deviation of body_gyro_z_test for the tested participants
+* mean.x.acc.tot.test  :  The mean of total_acc_x_test for the tested participants
+* sd.x.acc.tot.test    :  The standard deviation of total_acc_x_test for the tested participants
+* mean.y.acc.tot.test  :  The mean of total_acc_y_test for the tested participants
+* sd.y.acc.tot.test    :  The standard deviation of total_acc_y_test for the tested participants
+* mean.z.acc.tot.test  :  The mean of total_acc_z_test for the tested participants
+* sd.z.acc.tot.test    :  The standard deviation of total_acc_z_test for the tested participants
+* mean.x.test.test     :  The mean of x_test for the tested participants
+* sd.x.test.test       :  The standard deviation of x_test for the tested participants
+* mean.x.acc.body.train:  The mean of body_acc_x_train for the tested participants
+* sd.x.acc.body.train  :  The standard deviation of body_acc_x_train for the tested participants
+* mean.y.acc.body.train:  The mean of body_acc_y_train for the tested participants
+* sd.y.acc.body.train  :  The standard deviation of body_acc_y_train for the tested participants
+* mean.z.acc.body.train:  The mean of body_acc_z_train for the tested participants
+* sd.z.acc.body.train  :  The standard deviation of body_acc_z_train for the tested participants
+* mean.x.gyr.body.train:  The mean of body_gyro_x_train for the tested participants
+* sd.x.gyr.body.train  :  The standard deviation of body_gyro_x_train for the tested participants
+* mean.y.gyr.body.train:  The mean of body_gyro_y_train for the tested participants
+* sd.y.gyr.body.train  :  The standard deviation of body_gyro_y_train for the tested participants
+* mean.z.gyr.body.train:  The mean of body_gyro_z_train for the tested participants
+* sd.z.gyr.body.train  :  The standard deviation of body_gyro_z_train for the tested participants
+* mean.x.acc.tot.train :  The mean of total_acc_x_train for the tested participants
+* sd.x.acc.tot.train   :  The standard deviation of total_acc_x_train for the tested participants
+* mean.y.acc.tot.train :  The mean of total_acc_y_train for the tested participants
+* sd.y.acc.tot.train   :  The standard deviation of total_acc_y_train for the tested participants
+* mean.z.acc.tot.train :  The mean of total_acc_z_train for the tested participants
+* sd.z.acc.tot.train   :  The standard deviation of total_acc_z_train for the tested participants
+* mean.x.train         :  The mean of x_train for the tested participants
+* sd.x.train           :  The standard deviation of x_train for the tested participants
