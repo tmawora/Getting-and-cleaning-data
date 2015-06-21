@@ -44,15 +44,23 @@ y_subjects<-read.table(test.data.names[12])
 
 ###########################################################################
 ##  02. body_acc_x_test (No. 1 in test.data.names)
+# First read in the data
 participant.data<-read.table(test.data.names[1])
+# Many datasets do not have the id of a participant
+# SInce they have the same number of rows as the 
 completedata<-cbind(test_subjects,participant.data)
+# Melt data to be in one column. This shall enhance calculating summary statistics 
 completedata_melt<-melt(completedata,id=names(completedata[1]),measure.vars=names(completedata[2:ncol(completedata)]))
 completedata_melt<-completedata_melt[,-2]
+# Use aggregate to calculate the summary statistics
 meandata<-aggregate(completedata_melt[,2], by=list(completedata_melt[,1]), FUN="mean")
 names(meandata)<-c("id","mean.x.acc.body.test")
 sddata<-aggregate(completedata_melt[,2], by=list(completedata_melt[,1]), FUN="sd")
 names(sddata)<-c("id","sd.x.acc.body.test")
+# merge the data
 complete.data<-merge(meandata,sddata,all=T)
+
+# Now to repeat the same syntax for the remaining data
 
 ###########################################################################
 ## 03. body_acc_y_test.txt (No. 2 in test.data.names)
