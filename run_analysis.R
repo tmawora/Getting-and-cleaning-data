@@ -321,4 +321,5 @@ remove(list=c("completedata","meandata","completedata_melt","participant.data",
 ## write the file unwanted files
 write.table(complete.data,file="complete_data_Mawora.txt",row.names = FALSE)
 
+### The names of each variable has been explained in the code book.
 names(complete.data)
