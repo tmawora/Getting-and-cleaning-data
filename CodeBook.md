@@ -1,4 +1,4 @@
-The output file contains the following variables in order. 
+The output file from "run_analysis.R" contains the following variables in order. 
 
 ### Variables
 * id                   :  The unique ID for the respondent
